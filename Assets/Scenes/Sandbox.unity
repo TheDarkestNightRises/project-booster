@@ -415,6 +415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 5396021932950272966, guid: 7d155ba2137ea6d41bf9b73d21f53e47, type: 3}
+      propertyPath: m_TagString
+      value: Friendly
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d155ba2137ea6d41bf9b73d21f53e47, type: 3}
 --- !u!1001 &5346388565257245351
@@ -538,13 +542,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 145739702, guid: 4b19bf4b30a252f4c926ed3bb80aceb5, type: 3}
-      propertyPath: m_Drag
-      value: 0.25
+    - target: {fileID: 9025384819539538295, guid: 4b19bf4b30a252f4c926ed3bb80aceb5, type: 3}
+      propertyPath: Loop
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 145739702, guid: 4b19bf4b30a252f4c926ed3bb80aceb5, type: 3}
-      propertyPath: m_Constraints
-      value: 56
+    - target: {fileID: 9025384819539538295, guid: 4b19bf4b30a252f4c926ed3bb80aceb5, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9025384819952431393, guid: 4b19bf4b30a252f4c926ed3bb80aceb5, type: 3}
       propertyPath: m_Name
