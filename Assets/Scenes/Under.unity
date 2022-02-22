@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3319358165607339527, guid: 7d155ba2137ea6d41bf9b73d21f53e47, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.88
+      value: 13.62
       objectReference: {fileID: 0}
     - target: {fileID: 3319358165607339527, guid: 7d155ba2137ea6d41bf9b73d21f53e47, type: 3}
       propertyPath: m_LocalPosition.y
@@ -174,10 +174,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3363068957718257626, guid: 7d155ba2137ea6d41bf9b73d21f53e47, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 4244a5d78f7a61a4aba3ae9138cdda14, type: 2}
     - target: {fileID: 5396021932950272966, guid: 7d155ba2137ea6d41bf9b73d21f53e47, type: 3}
       propertyPath: m_Name
       value: LandingPad
@@ -364,23 +360,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1209507486 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9025384819952431393, guid: 4b19bf4b30a252f4c926ed3bb80aceb5, type: 3}
-  m_PrefabInstance: {fileID: 9025384819539538293}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1209507494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1209507486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f0c79d9faec97545bf7b20cb43829ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1434169927669273422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -512,11 +491,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5881773667776465026, guid: bdc939342d92c924192add1db6dfe7d8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.68
+      value: 7.64
       objectReference: {fileID: 0}
     - target: {fileID: 5881773667776465026, guid: bdc939342d92c924192add1db6dfe7d8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.58
+      value: 2.95
       objectReference: {fileID: 0}
     - target: {fileID: 5881773667776465026, guid: bdc939342d92c924192add1db6dfe7d8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -524,19 +503,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5881773667776465026, guid: bdc939342d92c924192add1db6dfe7d8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.69694716
       objectReference: {fileID: 0}
     - target: {fileID: 5881773667776465026, guid: bdc939342d92c924192add1db6dfe7d8, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5881773667776465026, guid: bdc939342d92c924192add1db6dfe7d8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5881773667776465026, guid: bdc939342d92c924192add1db6dfe7d8, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.71712255
       objectReference: {fileID: 0}
     - target: {fileID: 5881773667776465026, guid: bdc939342d92c924192add1db6dfe7d8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -548,7 +527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5881773667776465026, guid: bdc939342d92c924192add1db6dfe7d8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -91.635
       objectReference: {fileID: 0}
     - target: {fileID: 5881773667776465030, guid: bdc939342d92c924192add1db6dfe7d8, type: 3}
       propertyPath: m_Name
@@ -563,14 +542,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 9025384819539538295, guid: 4b19bf4b30a252f4c926ed3bb80aceb5, type: 3}
-      propertyPath: Loop
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9025384819539538295, guid: 4b19bf4b30a252f4c926ed3bb80aceb5, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 9025384819952431393, guid: 4b19bf4b30a252f4c926ed3bb80aceb5, type: 3}
       propertyPath: m_Name
       value: Rocket
