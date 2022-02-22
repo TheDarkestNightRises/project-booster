@@ -182,6 +182,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LandingPad
       objectReference: {fileID: 0}
+    - target: {fileID: 5396021932950272966, guid: 7d155ba2137ea6d41bf9b73d21f53e47, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d155ba2137ea6d41bf9b73d21f53e47, type: 3}
 --- !u!1 &705507993
@@ -360,6 +364,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1209507486 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9025384819952431393, guid: 4b19bf4b30a252f4c926ed3bb80aceb5, type: 3}
+  m_PrefabInstance: {fileID: 9025384819539538293}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1209507494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209507486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0c79d9faec97545bf7b20cb43829ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1434169927669273422
 PrefabInstance:
   m_ObjectHideFlags: 0

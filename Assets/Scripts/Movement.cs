@@ -31,7 +31,6 @@ public class Movement : MonoBehaviour //Deriving from MonoBehaviour. Inheritance
             rb.AddRelativeForce(Vector3.up * mainThrust * Time.deltaTime);
         }
         else audioSource.Stop();
-
     }
 
     private void ProcessRotation()
