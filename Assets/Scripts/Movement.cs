@@ -5,10 +5,14 @@ using UnityEngine; //NameSpace
 
 public class Movement : MonoBehaviour //Deriving from MonoBehaviour. Inheritance
 {
+    [SerializeField] float mainThrust = 1000f;
+    [SerializeField] float rotationThrust = 100f;
+    [SerializeField] AudioClip mainEngineSound;
+
     public Rigidbody rb; // Member variable.
     public AudioSource audioSource;
-    [SerializeField] float mainThrust = 1000f;
-    [SerializeField] float rotationThrust = 100f; 
+   
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +31,7 @@ public class Movement : MonoBehaviour //Deriving from MonoBehaviour. Inheritance
     {
         if ( Input.GetKey(KeyCode.Space))
         {
-            if (!audioSource.isPlaying) audioSource.Play();
+            if (!audioSource.isPlaying) audioSource.PlayOneShot(mainEngineSound);
             rb.AddRelativeForce(Vector3.up * mainThrust * Time.deltaTime);
         }
         else audioSource.Stop();
