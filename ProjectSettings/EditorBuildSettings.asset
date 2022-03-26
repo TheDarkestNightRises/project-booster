@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Under.unity
+    path: Assets/Scenes/Fly Under.unity
     guid: 87d2aef41b587ca4d83b81234cdf120c
   - enabled: 1
     path: Assets/Scenes/Fly Over.unity
